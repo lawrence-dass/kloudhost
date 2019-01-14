@@ -1,0 +1,276 @@
+* {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.container {
+  width: 85% !important;
+}
+
+.nav-menu a:hover {
+  color: #5680e9;
+}
+
+.features__title {
+  border-bottom: 1px solid rgb(209, 209, 209);
+  color: #555;
+  display: inline-block;
+}
+
+.section {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.primary-overlay {
+  background: rgba(86, 128, 233, 0.658);
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.main-header-inner .showcase {
+  padding-top: 50px;
+}
+
+.btn {
+  background: #496ecc;
+}
+
+.btn:hover {
+  background: #6c8ee4;
+}
+
+.active-link {
+  color: #5680e9;
+  font-weight: bold;
+}
+
+.carousel-item p {
+  font-size: 20px !important;
+}
+
+.btn-extend {
+  display: block;
+  width: 100%;
+}
+
+.section__features {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.section__features h4 {
+  color: #4262b4;
+}
+
+.section__features .container {
+  padding: 20px 0;
+}
+
+.section-about .container {
+  padding: 50px 0 20px 0;
+}
+
+.section-about h3 {
+  border-bottom: 1px solid rgb(209, 209, 209);
+  color: #555;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+}
+.section-about p {
+  text-align: center;
+}
+
+.footer__social {
+  display: inline-block;
+  margin: 0 auto;
+  margin: 30px 0;
+  text-align: center;
+  width: 40%;
+}
+
+.menu__icon {
+  margin: 0 !important;
+  padding: 10px 0;
+}
+.menu__icon svg {
+  fill: #dbdbdb;
+  height: 30px;
+  transition: fill 0.3s ease;
+  width: 30px;
+}
+
+.footer__icon {
+  fill: #dbdbdb;
+  height: 25px;
+  transition: fill 0.3s ease;
+  width: 25px;
+}
+
+.footer__icon:hover {
+  fill: #5680e9;
+}
+
+.footer__links {
+  left: 50%;
+  position: relative;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.footer__links {
+  transition: color 0.3s ease;
+}
+.footer__links a:hover {
+  color: #5680e9 !important;
+}
+
+.nav__icon {
+  padding: 12.5px;
+}
+
+/* Common Styles */
+
+.showcase__title {
+  font-size: 5rem;
+  margin: 4rem 0;
+}
+
+.nav__icon svg:hover {
+  fill: #5680e9;
+}
+.nav__icon svg {
+  fill: #dbdbdb;
+  height: 20px;
+  margin: 10px 0;
+  transition: fill 0.3s ease;
+  width: 20px;
+}
+
+.page-footer {
+  background: #131d34;
+}
+
+.section__testimonial .container {
+  height: 350px;
+  padding: 30px 0 0px 0;
+  text-align: center;
+}
+
+/* Home Page */
+
+.main-header .showcase {
+  padding-top: 100px;
+}
+
+.main-header-inner {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(4, 4, 44, 0.767),
+      rgba(0, 0, 0, 0.836)
+    ),
+    url('../img/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  min-height: 350px;
+}
+
+.main-header {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(4, 4, 44, 0.767),
+      rgba(0, 0, 0, 0.836)
+    ),
+    url('../img/bg.jpg');
+
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.card-panel {
+  padding: 0 24px 12px 24px !important;
+}
+
+.about__img-section {
+  padding: 40px 0 0 0;
+}
+
+.about__img {
+  border-radius: 50%;
+}
+
+.section__testimonial h3 {
+  border-bottom: 1px solid rgb(209, 209, 209);
+  color: #555;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.section__testimonial img {
+  width: 10px;
+}
+
+.carousel-item {
+  min-height: 200px !important;
+}
+
+.carousel-slider {
+  height: 200px !important;
+}
+
+.carousel {
+  height: 200px !important;
+}
+
+/* Feature Page  */
+
+.features__icon {
+  fill: #5680e9;
+  width: 80px;
+}
+
+.features-section__icon {
+  fill: #5680e9;
+  width: 48px;
+}
+
+.tabs .indicator {
+  background-color: #5680e9 !important;
+}
+
+.section__features h5 {
+  margin: 0;
+}
+
+#tab1,
+#tab2,
+#tab3 {
+  margin-top: 30px;
+}
+
+/* Sign Page */
+
+.section-signup-text {
+  margin-top: 30px;
+}
+
+@media (max-width: 500px) {
+  .section-developers,
+  .section-podcast {
+    min-height: 240px;
+  }
+}
