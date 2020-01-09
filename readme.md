@@ -4,7 +4,7 @@ Demo website for portfolio purpose, fully responsive build MaterializeCSS. With 
 
 The site scores 95% above on all the aspect in Lighthouse i.e. Performance, Accessibility , Best Practices and SEO and loads up in aprox 1.4 seconds and score standard "A".
 
-Click [here]([https://amazing-ptolemy-fccb31.netlify.com/](https://amazing-ptolemy-fccb31.netlify.com/)) for live site.
+Click [here](https://amazing-ptolemy-fccb31.netlify.com/) for live site.
 
 ## Technologies and Library used in the project.
 
